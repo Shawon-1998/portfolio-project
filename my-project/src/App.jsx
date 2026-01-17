@@ -4,9 +4,12 @@ import viteLogo from '/vite.svg'
 import Silk from './Components/Silk'
 import Nav from './Components/Nav'
 import LiquidEther from './Components/LiquidEther'
+import BlurText from './Components/BlurText'
 
 
-
+const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,11 +43,20 @@ function App() {
           autoResumeDelay={3000}
           autoRampDuration={0.6}
         >
-          <div className="absolute inset-0 z-20">
+          <div className="absolute inset-0 pointer-events-auto z-20">
             <Nav />
           </div>
         </LiquidEther>
-
+        <div className="container  ">
+          <BlurText
+            text="Isn't this so cool?! Let me show about myself"
+            delay={150}
+            animateBy="words"
+            direction="top"
+            onAnimationComplete={handleAnimationComplete}
+            className="text-5xl mt-45 font-semibold font-primary flex justify-center text-white absolute  pointer-events-auto z-20 inset-0"
+          />
+        </div>
       </div>
     </>
   )
