@@ -1169,7 +1169,7 @@ export default function LiquidEther({
     className={`w-full h-full relative overflow-hidden ${className || ''}`}
     style={style}
   >
-    <div >
+    <div className="absolute inset-0 z-20 pointer-events-auto">
       {children}
     </div>
   </div>

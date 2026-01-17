@@ -8,6 +8,12 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1170px;
    --font-primary: "Averia Gruesa Libre", system-ui;
+   --color-primary: #212529;
+   --color-secondary: #f8f9fa;
+}
+
+body{
+  background-color: #212529;
 }
 
 @layer utilities{
