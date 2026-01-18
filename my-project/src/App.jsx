@@ -3,6 +3,7 @@ import Nav from './Components/Nav'
 import BgBody from './Components/BgBody'
 import Introduce from './Components/Introduce'
 import AboutMe from './Components/AboutMe'
+import Skill from './Components/Skill'
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Introduce />
       </BgBody>
         <AboutMe />
+     <Skill/>
      
 
     </>

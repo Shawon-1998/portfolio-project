@@ -7,10 +7,10 @@ const AboutMe = () => {
     return (
         <>
             <Container >
-                <div className='my-25 text-secondary font-primary  anima'>
+                <div className='py-25 w-full text-secondary font-primary  anima  '>
                     <h2 className='text-center text-5xl mb-5 '>About Me</h2>
-                    <div className='w-full h-50 flex gap-20 justify-center'>
-                        <div className='w-120'>
+                    <div className='w-full  flex gap-20 justify-center'>
+                        <div className='w-120 '>
                             <h4 className='text-2xl font-semibold'>Who I Am</h4>
                             <h3 className='text-4xl font-semibold leading-13  py-6'>My name is Billal Hossain Shawon and I am a frontend developer</h3>
                             <p className='text-lg'>I am currently learning frontend development with React and continuously improving my skills by practicing and exploring new technologies to strengthen my development practices.</p>

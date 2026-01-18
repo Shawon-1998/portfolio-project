@@ -5,7 +5,7 @@ import LiquidEther from './LiquidEther';
 
 const BgBody = ({children}) => {
   return (
-          <div className='h-screen bg-primary w-full overflow-y-auto'>
+          <div className='h-screen bg-primary w-full '>
             <LiquidEther
               colors={['#5227FF', '#FF9FFC', '#B19EEF']}
               mouseForce={20}
