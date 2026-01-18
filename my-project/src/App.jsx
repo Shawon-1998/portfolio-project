@@ -4,6 +4,7 @@ import BgBody from './Components/BgBody'
 import Introduce from './Components/Introduce'
 import AboutMe from './Components/AboutMe'
 import Skill from './Components/Skill'
+import Service from './Components/Service'
 
 
 
@@ -18,6 +19,7 @@ function App() {
       </BgBody>
         <AboutMe />
      <Skill/>
+     <Service />
      
 
     </>

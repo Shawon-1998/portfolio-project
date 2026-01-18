@@ -5,7 +5,7 @@ const Vercel = () => {
   return (
     <div>
       <SvgImg   
-      className='text-red-500 text-6xl'
+      className=' '
       children="m12 1.608 12 20.784H0Z"
       />
     </div>

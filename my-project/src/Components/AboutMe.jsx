@@ -8,7 +8,7 @@ const AboutMe = () => {
         <>
             <Container >
                 <div className='py-25 w-full text-secondary font-primary  anima  '>
-                    <h2 className='text-center text-5xl mb-5 '>About Me</h2>
+                    <h1 className='text-center text-6xl mb-5 '>About Me</h1>
                     <div className='w-full  flex gap-20 justify-center'>
                         <div className='w-120 '>
                             <h4 className='text-2xl font-semibold'>Who I Am</h4>

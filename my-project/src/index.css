@@ -7,49 +7,55 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1170px;
-   --font-primary: "Averia Gruesa Libre", system-ui;
-   --color-primary: #212529;
-   --color-secondary: #f8f9fa;
+  --font-primary: "Averia Gruesa Libre", system-ui;
+  --color-primary: #212529;
+  --color-secondary: #f8f9fa;
 }
 
-body{
+body {
   background-color: #212529;
-  
+  color: #f8f9fa;
+
+
 }
 
-@layer utilities{
-  .container{
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Averia Gruesa Libre", system-ui;
+}
+
+@layer utilities {
+  .container {
     margin: auto;
   }
 }
 
 /* use in nav Component */
-.anime{
+.anime {
   animation: animate 4s linear 1s infinite;
 }
-@keyframes animate{
- to {
-  background-position-x:-200px ;
- }
+
+@keyframes animate {
+  to {
+    background-position-x: -200px;
+  }
 }
 
 
 /* use in about component */
 .anima {
   transform: translateY(20px);
-  animation: anima 4s ease-in  ;
-  
-  /* Adds the underlying value to */
-  /* the current effect value */
- 
+  animation: anima 4s ease-in;
+
 }
 
- @keyframes anima{
+@keyframes anima {
   0% {
     /* Effect values */
     transform: translateY(-500px);
     opacity: 0;
     filter: blur(20px);
   }
- 
+
 }
