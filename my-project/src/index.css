@@ -21,11 +21,34 @@ body{
     margin: auto;
   }
 }
+
+/* use in nav Component */
 .anime{
-  animation: animate 6s linear 1s infinite;
+  animation: animate 4s linear 1s infinite;
 }
 @keyframes animate{
  to {
   background-position-x:-200px ;
  }
+}
+
+
+/* use in about component */
+.anima {
+  transform: translateY(20px);
+  animation: anima 4s ease-in  ;
+  
+  /* Adds the underlying value to */
+  /* the current effect value */
+ 
+}
+
+ @keyframes anima{
+  0% {
+    /* Effect values */
+    transform: translateY(-500px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+ 
 }
