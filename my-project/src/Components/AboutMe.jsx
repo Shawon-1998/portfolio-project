@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <>
             <Container >
-                <div className='py-25 w-full text-secondary font-primary  anima  '>
+                <div className='py-25 w-full shadow-2xl rounded-lg text-secondary font-primary   anima  '>
                     <h1 className='text-center text-6xl mb-5 '>About Me</h1>
                     <div className='w-full  flex gap-20 justify-center'>
                         <div className='w-120 '>

@@ -15,7 +15,7 @@ const Introduce = () => {
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
-            className="text-5xl mt-15 mb-25 font-semibold w-186 h-20 leading-20 font-primary mx-auto text-secondary a"
+            className="text-5xl mt-15 mb-25 font-semibold w-186 h-20 leading-20  mx-auto text-secondary "
           />
         </Container>
     </>

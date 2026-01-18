@@ -21,12 +21,12 @@ const Skill = () => {
   return (
     <>
       <Container >
-     <div className='font-primary anima '>
-         <h1 className=''>Skills</h1>
+     <div className=' anima '>
+         <h1 className='mt-15'>Skills</h1>
         <Flex>
-           <div>
+           <div className='shadow-2xl rounded-lg p-10'>
         <h2 className='text-4xl my-10'>Frontend_skill</h2>
-          <span className='flex gap-15'>
+          <span className='flex mb-10 gap-15'>
             <Html5 />
             <Css />
             <Tailwind />
@@ -37,19 +37,19 @@ const Skill = () => {
             <ReactImg />
           </span>
         </div>
-        <div>
+        <div className='shadow-2xl rounded-lg p-10'>
         <h2 className='text-4xl my-10'>Tools</h2>
           <span className='flex mb-10 gap-15'>
             <Github />
             <Git />
-            <Figma />
-          </span>
-          <span className='flex gap-15'>
-            <VsCode />
             <FireBase />
+          </span>
+          <span className='flex mb-10 gap-15'>
+            <VsCode />
             <Netlify />
             <Vercel />
           </span>
+            <Figma />
         </div>
         </Flex>
      </div>

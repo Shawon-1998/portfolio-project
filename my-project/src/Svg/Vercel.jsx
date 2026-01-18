@@ -4,8 +4,9 @@ import SvgImg from '../Components/SvgImg'
 const Vercel = () => {
   return (
     <div>
-      <SvgImg   
-      className=' '
+      <SvgImg 
+      ItemName='Vercel'
+      className='hover:bg-black'
       children="m12 1.608 12 20.784H0Z"
       />
     </div>

@@ -17,10 +17,10 @@ function App() {
         <Nav />
         <Introduce />
       </BgBody>
-        <AboutMe />
-     <Skill/>
-     <Service />
-     
+      <AboutMe />
+      <Skill />
+      <Service />
+
 
     </>
   )
