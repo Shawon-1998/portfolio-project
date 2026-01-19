@@ -13,7 +13,8 @@
 }
 
 body {
-  background-color: rgb(59 130 246 );
+  background-color:#212529 ;
+  /* background-color: rgb(59 130 246 ); */
   color: #f8f9fa;
    font-family: "Averia Gruesa Libre", system-ui;
 }
@@ -66,7 +67,7 @@ h1 {
   border-radius: calc(infinity * 1px);
   border: 1px solid ;
   color: #f8f9fa;
-  box-shadow: 0 0 10px;
+  /* box-shadow: 0 0 10px; */
   font-weight:500;
 }
 .card h3:hover{

@@ -24,7 +24,7 @@ const Skill = () => {
      <div id='Skill' className=' anima  '>
          <h1 className='mt-15'>Skills</h1>
         <Flex>
-           <div className='shadow-2xl rounded-lg p-10 transition-all 3s linear hover:scale-110'>
+           <div className='shadow-[0_0_100px] rounded-lg p-10 transition-all 3s linear hover:scale-110'>
         <h2 className='text-4xl my-10'>Frontend_skill</h2>
           <span className='flex mb-10 gap-15'>
             <Html5 />
@@ -37,7 +37,7 @@ const Skill = () => {
             <ReactImg />
           </span>
         </div>
-        <div className='shadow-2xl rounded-lg p-10 transition-all 3s linear hover:scale-110'>
+        <div className='shadow-[0_0_100px] rounded-lg p-10 transition-all 3s linear hover:scale-110'>
         <h2 className='text-4xl my-10'>Tools</h2>
           <span className='flex mb-10 gap-15'>
         
