@@ -46,7 +46,7 @@ h1 {
 .anima {
   transform: translateY(20px);
   animation: anima 4s ease-in;
-
+ 
 }
 
 @keyframes anima {

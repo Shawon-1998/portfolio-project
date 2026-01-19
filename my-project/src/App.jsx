@@ -5,6 +5,9 @@ import Introduce from './Components/Introduce'
 import AboutMe from './Components/AboutMe'
 import Skill from './Components/Skill'
 import Service from './Components/Service'
+import HeroSec from './Components/HeroSec'
+
+
 
 
 
@@ -13,14 +16,14 @@ function App() {
 
   return (
     <>
-      <BgBody>
+      {/* <BgBody>
+      </BgBody> */}
         <Nav />
         <Introduce />
-      </BgBody>
       <AboutMe />
       <Skill />
       <Service />
-
+   <HeroSec />
 
     </>
   )

@@ -21,10 +21,10 @@ const Skill = () => {
   return (
     <>
       <Container >
-     <div className=' anima '>
+     <div id='Skill' className=' anima  '>
          <h1 className='mt-15'>Skills</h1>
         <Flex>
-           <div className='shadow-2xl rounded-lg p-10'>
+           <div className='shadow-2xl rounded-lg p-10 transition-all 3s linear hover:scale-110'>
         <h2 className='text-4xl my-10'>Frontend_skill</h2>
           <span className='flex mb-10 gap-15'>
             <Html5 />
@@ -37,19 +37,20 @@ const Skill = () => {
             <ReactImg />
           </span>
         </div>
-        <div className='shadow-2xl rounded-lg p-10'>
+        <div className='shadow-2xl rounded-lg p-10 transition-all 3s linear hover:scale-110'>
         <h2 className='text-4xl my-10'>Tools</h2>
           <span className='flex mb-10 gap-15'>
-            <Github />
+        
             <Git />
             <FireBase />
+            <VsCode />
           </span>
           <span className='flex mb-10 gap-15'>
-            <VsCode />
+                <Github />
+            {/* <Figma /> */}
             <Netlify />
             <Vercel />
           </span>
-            <Figma />
         </div>
         </Flex>
      </div>
