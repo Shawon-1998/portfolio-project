@@ -8,16 +8,19 @@ const handleAnimationComplete = () => {
 const Introduce = () => {
   return (
     <>
-       <Container>
-          <BlurText
-            text="I'm Billal Hossain Shawon Let's Explore"
-            delay={150}
-            animateBy="words"
-            direction="top"
-            onAnimationComplete={handleAnimationComplete}
-            className="text-5xl mt-15 mb-25 font-semibold w-186 h-20 leading-20  mx-auto text-secondary "
-          />
-        </Container>
+      <Container>
+        <BlurText
+          text="👋 Hi,
+            My name is
+           Billal Hossain Shawon
+            I am a Web Developer 💻"
+          delay={150}
+          animateBy="words"
+          direction="top"
+          onAnimationComplete={handleAnimationComplete}
+          className="text-5xl mt-15 mb-25 font-semibold w-186 h-20 leading-20  mx-auto text-secondary "
+        />
+      </Container>
     </>
   )
 }

@@ -16,7 +16,7 @@ const AboutMe = () => {
                             <p className='text-lg'>I am currently learning frontend development with React and continuously improving my skills by practicing and exploring new technologies to strengthen my development practices.</p>
                         </div>
                         <div >
-                            <img src={Img} className='h-100 hover:scale-250 transition-all linear all' alt="" />
+                            <img src={Img} className='h-100 hover:scale-180 transition-all linear ' alt="" />
                         </div >
                     </div>
                 </div>

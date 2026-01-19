@@ -5,11 +5,9 @@ import Introduce from './Components/Introduce'
 import AboutMe from './Components/AboutMe'
 import Skill from './Components/Skill'
 import Service from './Components/Service'
-import HeroSec from './Components/HeroSec'
 
-
-
-
+import ProjectCardSec from './Components/ProjectCardSec'
+import Project from './Components/Project'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,8 +21,7 @@ function App() {
       <AboutMe />
       <Skill />
       <Service />
-   <HeroSec />
-
+   <Project />
     </>
   )
 }
