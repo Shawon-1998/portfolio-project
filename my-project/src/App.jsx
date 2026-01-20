@@ -5,9 +5,8 @@ import Introduce from './Components/Introduce'
 import AboutMe from './Components/AboutMe'
 import Skill from './Components/Skill'
 import Service from './Components/Service'
-
-import ProjectCardSec from './Components/ProjectCardSec'
 import Project from './Components/Project'
+import Contact from './Components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,12 +15,13 @@ function App() {
     <>
       {/* <BgBody>
       </BgBody> */}
-        <Nav />
-        <Introduce />
+      <Nav />
+      {/* <Introduce /> */}
       <AboutMe />
       <Skill />
       <Service />
-   <Project />
+      <Project />
+      <Contact />
     </>
   )
 }

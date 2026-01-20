@@ -11,7 +11,7 @@ const Service = () => {
         <Container>
 
         <div className='anima'>
-            <h1 className='mt-8 '>What I Do</h1>
+            <h1 className='mt-15 '>What I Do</h1>
             <p className='text-center  my-5 text-lg'>I develop innovative digital solutions that meets real needs.</p>
             <Flex className='justify-center py-10 gap-20'>
                 <Card

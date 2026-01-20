@@ -32,7 +32,7 @@ const Project = () => {
                   item5=''
                   link2='https://github.com/Shawon-1998/CorporateLayout-design-with-react.git'
                   projectName='Corporate Website'
-                  description='A fully responsive modern landing page website'
+                  description='A fully responsive modern landing page website with cool features'
                />
                <ProjectCardSec
                   ImgSrc={img4}
