@@ -16,7 +16,7 @@ function App() {
       {/* <BgBody>
       </BgBody> */}
       <Nav />
-      {/* <Introduce /> */}
+      <Introduce />
       <AboutMe />
       <Skill />
       <Service />

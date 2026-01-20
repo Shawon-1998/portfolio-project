@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Container>
-        <div className='my-25'>
+        <div id='Contact' className= 'anima my-25'>
           <h1 className='mb-10'>Contact</h1>
         <h2 className='text-4xl '> Get In Touch  </h2>
         <Flex className='items-start'>
@@ -17,15 +17,15 @@ const Contact = () => {
             <form className='w-[60%] mt-10' action="">
                <div className='flex justify-between '>
                  <label htmlFor="text"></label>
-                <input type="text" className='text-primary w-[50%] me-5  py-5 ps-10 rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your name'/>
+                <input type="text" className='text-primary w-[50%] me-5  transition 0.3s hover:scale-105 py-5 ps-10 rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your name'/>
                 <label htmlFor="email"></label>
-                <input type="email" className='text-primary w-[50%] py-5 ps-10  rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your email'/>
+                <input type="email" className='text-primary w-[50%]  transition 0.3s hover:scale-105 py-5 ps-10  rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your email'/>
                </div>
                 <label htmlFor="text"></label>
-                <input type="" className='text-primary my-7 w-full py-5 ps-10  rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your subject'/>
+                <input type="" className='text-primary my-7 w-full  transition 0.3s hover:scale-105 py-5 ps-10  rounded-full bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Insert your subject'/>
 
                 <label htmlFor="text"></label>
-                <input type="text" className='text-primary  w-full pt-5 ps-10 pb-25  rounded-4xl bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Write your message'/>
+                <input type="text" className='text-primary transition 0.3s w-full hover:scale-105 pt-5 ps-10 pb-25  rounded-4xl bg-secondary border outline-0 placeholder:text-primary placeholder:text-lg' placeholder='Write your message'/>
             </form>
         </Flex>
       </div>

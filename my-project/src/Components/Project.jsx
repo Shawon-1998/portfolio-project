@@ -6,12 +6,14 @@ import img1 from '../assets/ecommerce .png'
 import img2 from '../assets/insta.png'
 import img3 from '../assets/corporate.png'
 import img4 from '../assets/restaurant.png'
+import Btn from './Btn'
 
 const Project = () => {
    return (
       <>
          <Container>
-            <h1 className='mt-15 mb-6'>Project</h1>
+          <div id='project' className='anima'>
+              <h1 className='mt-15 mb-6'>Project</h1>
             <div className='grid grid-cols-3 gap-y-10'>
                <ProjectCardSec
                   ImgSrc={img1}
@@ -68,7 +70,10 @@ const Project = () => {
                />
 
             </div>
-            <button className='py-2 px-6 block mx-auto text-3xl border my-10 hover:bg-secondary hover:text-primary hover:scale-110 rounded-lg'><a target="_blank" href="https://github.com/Shawon-1998?tab=repositories">View More</a></button>
+         <Btn>
+            View more
+         </Btn>
+          </div>
          </Container>
       </>
    )

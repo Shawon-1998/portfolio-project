@@ -14,8 +14,8 @@ const Nav = () => {
             <li>Home</li>
             <li><a href="#Skill">Skill</a></li>
             <li ><a href="#AboutMe">About</a></li>
-            <li>Project</li>
-            <li>Blog</li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
          </Flex>
         </Container>
