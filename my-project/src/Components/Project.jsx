@@ -37,7 +37,7 @@ const Project = () => {
                <ProjectCardSec
                   ImgSrc={img4}
                   item1='React'
-                  item2='Js'
+                  item2='Tailwind'
                   item3='Css'
                   item4=''
                   item5=''
@@ -59,7 +59,7 @@ const Project = () => {
                <ProjectCardSec
                   ImgSrc={img3}
                   item1='React'
-                  item2='Js'
+                  item2='Css'
                   item3='tailwind'
                   item4=''
                   item5=''

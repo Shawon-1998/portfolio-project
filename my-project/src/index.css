@@ -31,14 +31,16 @@ h1 {
   }
 }
 
-/* use in nav Component */
+/* use in nav Component  and about me */
+
 .anime {
   animation: animate 4s linear 1s infinite;
+  width: 100%;
 }
 
 @keyframes animate {
   to {
-    background-position-x: -200px;
+    background-position: -220px;
   }
 }
 
