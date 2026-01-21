@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import Img from '../assets/SHAWON.jpeg'
+import Img from '../assets/Aww.png'
 import Flex from './Flex';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
