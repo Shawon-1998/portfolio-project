@@ -17,7 +17,7 @@ const Introduce = () => {
           <div className='absolute top-[20%] left-[40%]'>
             <img src={Img} className='rounded-[50%] ms-10 h-30 w-30 hover:scale-150' alt="" />
             <h3 className='-ms-60 mt-15 mb-5'> <span className='block text-transparent text-6xl font-bold uppercase bg-[url(assets/sunset-2180346.jpg)] bg-no-repeat bg-cover bg-center bg-clip-text  font-primary'>Billal Hossain  Shawon</span></h3>
-            <p className='-ms-15 text-3xl mb-5'>I am Front-end Developer</p>
+            <p className='-ms-15 text-3xl mb-5'>I am a Front-end Developer</p>
           <div className='flex gap-10 text-4xl'>
             <a target='blank' href="https://github.com/Shawon-1998"><FaGithub /></a>
            <a  href="www.linkedin.com/in/billal-hossain-shawon-479361344"><FaLinkedin /></a>
