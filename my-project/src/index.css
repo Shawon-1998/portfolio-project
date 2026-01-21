@@ -13,9 +13,10 @@
 }
 
 body {
-  background-color:#212529 ;
-  /* background-color: rgb(59 130 246 ); */
-  color: #f8f9fa;
+  background-color:#457b9d ;
+  /* background-color: #22223b; */
+  color: #f0efeb;
+  /* color: #f8f9fa; */
    font-family: "Averia Gruesa Libre", system-ui;
 }
 
