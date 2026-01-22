@@ -6,6 +6,7 @@ import img1 from '../assets/ecommerce .png'
 import img2 from '../assets/insta.png'
 import img3 from '../assets/corporate.png'
 import img4 from '../assets/restaurant.png'
+import img5 from '../assets/portfolio.png'
 import Btn from './Btn'
 
 const Project = () => {
@@ -32,6 +33,7 @@ const Project = () => {
                   item3='tailwind'
                   item4=''
                   item5=''
+                  link1='https://corporate-layout-design-with-react.vercel.app/'
                   link2='https://github.com/Shawon-1998/CorporateLayout-design-with-react.git'
                   projectName='Corporate Website'
                   description='A fully responsive modern landing page website with cool features'
@@ -59,7 +61,7 @@ const Project = () => {
                   description='A fully responsive modern Full Stack eCommerce website with Payments functionality'
                />
                <ProjectCardSec
-                  ImgSrc={img3}
+                  ImgSrc={img5}
                   item1='React'
                   item2='Css'
                   item3='tailwind'
