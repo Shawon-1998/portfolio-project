@@ -23,6 +23,7 @@ const Project = () => {
                      item3='tailwind'
                      item4=''
                      item5=''
+                       link1='https://portfolio-project-delta-gules.vercel.app/'
                      projectName='Portfolio'
                      description='It is my first personal portfoliop and there is lot of for improvement'
                   />
@@ -32,6 +33,7 @@ const Project = () => {
                      item2='Js'
                      item3='tailwind'
                      item4=''
+                   
                      link2="https://github.com/Shawon-1998/E_Commerce-Project.git"
                      projectName='eCommerce Website'
                      description='A fully responsive modern Full Stack eCommerce website with Payments functionality'
@@ -70,6 +72,7 @@ const Project = () => {
                      projectName='Insta-Vibe'
                      description='A fully responsive modern Full Stack eCommerce website with Payments functionality'
                   />
+                  
 
                </div>
                <Btn>

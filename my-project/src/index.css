@@ -2,20 +2,20 @@
 @import "tailwindcss";
 
 @theme {
-  --breakpoint-*: initial;
+   --breakpoint-*: initial;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1170px;
   --font-primary: "Averia Gruesa Libre", system-ui;
-  --color-primary: #212529;
-  --color-secondary: #f8f9fa;
+  --color-primary: #0a100d;
+  --color-secondary: #fdfdff;
 }
 
 body {
-  background-color:#457b9d ;
+  background-color:#0c090d ;
   /* background-color: #22223b; */
-  color: #f0efeb;
+  color: #fdfdff;
   /* color: #f8f9fa; */
    font-family: "Averia Gruesa Libre", system-ui;
 }
@@ -38,13 +38,13 @@ html {
 /* use in nav Component  and about me */
 
 .anime {
-  animation: animate 4s linear 1s infinite;
+  animation: animate 5s linear 1s infinite;
   width: 100%;
 }
 
 @keyframes animate {
   to {
-    background-position: -220px;
+    background-position: -550px;
   }
 }
 
@@ -52,14 +52,14 @@ html {
 /* use in about component */
 .anima {
   transform: translateY(20px);
-  animation: anima 4s ease-in;
+  animation: anima 1s ease-in;
  
 }
 
 @keyframes anima {
   0% {
     /* Effect values */
-    transform: translateY(-500px);
+    transform: translateY(-20px);
     opacity: 0;
     filter: blur(20px);
   }
@@ -72,13 +72,13 @@ html {
   padding: 4px 16px;
   border-radius: calc(infinity * 1px);
   border: 1px solid ;
-  color: #f8f9fa;
+  
   /* box-shadow: 0 0 10px; */
   font-weight:500;
 }
 .card h3:hover{
-  background-color: #f8f9fa;
-  color: #212529;
+  background-color: #0c090d;
+  color: #fdfdff;
   transform: scale(1.2);
-   border: 1px solid #212529;
+   border: 1px solid #0c090d;
 }

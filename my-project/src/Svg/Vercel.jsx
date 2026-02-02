@@ -6,7 +6,7 @@ const Vercel = () => {
     <div>
       <SvgImg 
       ItemName='Vercel'
-      className='hover:bg-black'
+      className='text-black'
       children="m12 1.608 12 20.784H0Z"
       />
     </div>
