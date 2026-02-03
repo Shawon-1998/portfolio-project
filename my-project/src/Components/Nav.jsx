@@ -12,8 +12,8 @@ const Nav = () => {
             <h3 className='text-transparent text-3xl font-semibold uppercase bg-[url(assets/sunset-2180346.jpg)] bg-no-repeat bg-cover bg-center bg-clip-text anime font-primary'>Shawon</h3>
           <ul className=' text-secondary text-2xl flex font-primary gap-10'>
             <li>Home</li>
-            <li><a href="#Skill">Skill</a></li>
             <li ><a href="#AboutMe">About</a></li>
+            <li><a href="#Skill">Skill</a></li>
             <li><a href="#project">Project</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
