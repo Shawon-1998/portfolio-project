@@ -13,7 +13,7 @@ const Project = () => {
    return (
       <>
          <Container>
-            <div id='project' className='anima'>
+            <div id='project' className=' lg:mb-20 '>
                <h1 className='mt-15 mb-6'>Project</h1>
                <div className='grid grid-cols-3 gap-y-10'>
                   <ProjectCardSec

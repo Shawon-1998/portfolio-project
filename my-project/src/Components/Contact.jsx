@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Container>
-        <div id='Contact' className= 'anima my-25'>
+        <div id='Contact' className= 'py-30 lg:mb-25'>
           <h1 className='mb-10'>Contact</h1>
         <h2 className='text-4xl '> Get In Touch  </h2>
         <Flex className='items-start'>

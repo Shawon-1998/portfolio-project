@@ -6,14 +6,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
-const handleAnimationComplete = () => {
-  console.log('Animation completed!');
-};
 const Introduce = () => {
   return (
     <>
       <Container>
-        <div className='  anima'>
+        <div className=' lg:mb-20 anima'>
           <div className='flex flex-col items-center justify-center h-150 px-5'>
             <img src={Img} className='rounded-[50%] h-30 w-30 hover:scale-150 transition-all ease-linear 0.4s' alt="" />
             <h3 className=' mt-15 mb-5'> <span className='block text-transparent lg:text-6xl text-2xl font-bold uppercase bg-[url(assets/sunset-2180346.jpg)] bg-no-repeat bg-cover bg-center bg-clip-text  font-primary'>Billal Hossain  Shawon</span></h3>

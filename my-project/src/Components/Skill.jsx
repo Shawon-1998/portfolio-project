@@ -21,7 +21,7 @@ const Skill = () => {
   return (
     <>
       <Container >
-     <div id='Skill' className=' anima  '>
+     <div id='Skill' className='lg:mb-20 min-h-screen'>
          <h1 className='lg:mt-15 mt-8 mb-3 lg:mb-7'>Skills</h1>
         <div className='lg:flex justify-center lg:gap-20'>
            <div className='shadow-[0_0_10px] mb-15 lg:mb-0 lg:mx-0 mx-10 rounded-lg lg:p-10 p-5 transition-all 3s linear hover:scale-110'>
