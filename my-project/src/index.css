@@ -77,8 +77,8 @@ html {
   font-weight:500;
 }
 .card h3:hover{
-  background-color: #0c090d;
-  color: #fdfdff;
+  background-color: #fdfdff;
+  color: #0c090d;
   transform: scale(1.2);
    border: 1px solid #0c090d;
 }

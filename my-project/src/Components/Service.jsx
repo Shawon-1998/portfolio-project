@@ -14,7 +14,7 @@ const Service = () => {
             <h1 className='mt-15 '>What I Do</h1>
             <p className='text-center  my-5 text-lg'>I develop innovative digital solutions that meets real needs.</p>
             <div className='lg:flex justify-center py-10 gap-20'>
-               <div className=' lg:mb-0 mb-10 mx-5 lg:mx-0'>
+               <div className=' lg:mb-0 mb-10 mx-10 lg:mx-0'>
                  <Card
                 className='text-2xl flex justify-center'
                 service='Web maintainance'
@@ -22,7 +22,7 @@ const Service = () => {
                 icon={  <FaTools />}
                 />
                </div>
-               <div  className=' lg:mb-0 mb-10 mx-5 lg:mx-0'>
+               <div  className=' lg:mb-0 mb-10 mx-10 lg:mx-0'>
                   <Card
                 icon={<FaComputer />}
                     service='Web development'

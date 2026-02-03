@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <>
             <Container >
-            <div id='AboutMe' className=' lg:mb-20 mb-10  lg:mx-0 mx-10'>
+            <div id='AboutMe' className=' lg:my-20 my-10  lg:mx-0 mx-10'>
                     <h1 className='text-center text-6xl mb-5 '>About Me</h1>
                     <div className='lg:py-25 mt-15 w-full  rounded-lg text-secondary font-primary  '>
                         <div className='w-full  lg:flex gap-20 justify-center'>
