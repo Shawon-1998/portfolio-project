@@ -8,7 +8,7 @@ const ProjectCardSec = ({ImgSrc, item1, item2, item3, projectName,link1,link2, d
     return (
         <>
             <Container>
-                <div className=' card lg:h-120 h-110  pb-3 lg:w-88   text-center shadow-[0_0_10px] rounded-xl hover:scale-110 transition-all linear 0.3s '>
+                <div className=' card lg:h-120 h-110  pb-3 lg:w-88  text-center shadow-[0_0_10px] rounded-xl hover:scale-110 transition-all linear 0.3s '>
                     <img src={ImgSrc} className='full rounded-t-xl' alt="" />
                     <div className='flex gap-3 mt-5 justify-center pt-3  pb-5 '>
                         <h3>{item1}</h3>
