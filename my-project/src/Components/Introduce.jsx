@@ -12,7 +12,7 @@ const Introduce = () => {
       <Container>
         <div className=' lg:mb-20 anima'>
           <div className='flex flex-col items-center justify-center h-150 px-5'>
-            <img src={Img} className='rounded-[50%] lg:h-100 lg:w-100 h-70 w-70 hover:scale-150 transition-all ease-linear 0.4s' alt="" />
+            <img src={Img} className='rounded-[50%] lg:h-100 lg:w-100 h-70 w-70 hover:scale-120 transition-all ease-linear 0.4s' alt="" />
             <h3 className=' mt-15 mb-5'> <span className='block text-transparent lg:text-6xl text-2xl font-bold uppercase bg-[url(assets/sunset-2180346.jpg)] bg-no-repeat bg-cover bg-center bg-clip-text  font-primary'>Billal Hossain  Shawon</span></h3>
             <p className='text-xl lg:text-3xl mb-5'>I Am A Front-End Developer</p>
           <div className='flex gap-10 text-4xl'>

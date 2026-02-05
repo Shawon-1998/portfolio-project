@@ -17,7 +17,7 @@ const AboutMe = () => {
                                 <p className='text-lg'>I am a frontend development with React and continuously improving my skills by practicing and exploring new technologies to strengthen my development practices.</p>
                             </div>
                             <div className='lg:w-[50%] w-full flex items-center justify-center '>
-                                <img src={Img} className='h-100 rounded-xl  lg:hover:scale-130 hover:scale-120 transition-all 0.53 linear ' alt="" />
+                                <img src={Img} className='h-100 rounded-xl  lg:hover:scale-130 hover:scale-110 transition-all 0.53 linear ' alt="" />
                             </div >
                         </div>
                     </div>
