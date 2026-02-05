@@ -83,3 +83,7 @@ html {
    border: 1px solid #0c090d;
 }
 
+/* list className in nav.jsx */
+.list li{
+  cursor: pointer;
+}
