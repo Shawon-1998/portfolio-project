@@ -2,15 +2,12 @@ import React, { useState } from 'react'
 import Container from './Container'
 import Flex from './Flex'
 import { FaBars } from "react-icons/fa";
-
+import { IoCloseSharp } from "react-icons/io5";
 
 const Nav = () => {
 
   const [value,setValue]=useState(true)
-  
-  const handleClick=()=>{
-    setValue(!value)
-  }
+ 
 
   return (
     <>
@@ -27,7 +24,13 @@ const Nav = () => {
                 <li><a href="#Contact">Contact</a></li>
               </ul>
             </div>
-            <FaBars className='lg:hidden block cursor-pointer text-lg mt-3 ' onClick={handleClick}/>
+          { value ?
+            <FaBars className='lg:hidden block cursor-pointer
+            text-lg mt-3' onClick={()=>setValue(!value)}/> :
+           <IoCloseSharp className='lg:hidden block cursor-pointer
+            linear rotate-0 mt-3 text-2xl'onClick={()=>{setValue(!value)         
+            }}/>
+          }
           </Flex>
         </Container>
       </nav>
