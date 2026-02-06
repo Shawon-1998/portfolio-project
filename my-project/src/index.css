@@ -12,6 +12,10 @@
   --color-secondary: #fdfdff;
 }
 
+:root{
+   --color-primary: #0a100d;
+  --color-secondary: #fdfdff;
+}
 body {
   background-color:#0c090d ;
   /* background-color: #22223b; */
@@ -86,5 +90,12 @@ html {
 /* list className in nav.jsx */
 .list li{
   cursor: pointer;
-  z-index: 999;
+  padding: 3px;
+  border-radius: 10px;
+  
+}
+.list li:hover{
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  transition: all 0.3s linear ;
 }
