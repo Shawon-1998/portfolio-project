@@ -86,4 +86,5 @@ html {
 /* list className in nav.jsx */
 .list li{
   cursor: pointer;
+  z-index: 999;
 }

@@ -12,7 +12,7 @@ const Service = () => {
 
         <div className='lg:mb-20  '>
             <h1 className='mt-15 '>What I Do</h1>
-            <p className='text-center  my-5 text-lg'>I develop innovative digital solutions that meets real needs.</p>
+            <p className='text-center px-5  my-5 text-lg'>I develop innovative digital solutions that meets real needs.</p>
             <div className='lg:flex justify-center py-10 gap-20'>
                <div className=' lg:mb-0 mb-10 mx-10 lg:mx-0'>
                  <Card

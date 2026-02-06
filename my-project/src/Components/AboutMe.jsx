@@ -16,7 +16,7 @@ const AboutMe = () => {
                                 <h3 className='text-xl lg:text-3xl font-semibold leading-13  py-6'>My name is <span className='block text-transparent text-2xl lg:text-4xl font-bold uppercase bg-[url(assets/sunset-2180346.jpg)] bg-no-repeat bg-cover bg-center bg-clip-text anime font-primary'>Billal  Hossain Shawon</span> and I am a frontend developer</h3>
                                 <p className='text-lg'>I am a frontend development with React and continuously improving my skills by practicing and exploring new technologies to strengthen my development practices.</p>
                             </div>
-                            <div className='lg:w-[50%] w-full flex items-center justify-center '>
+                            <div className='lg:w-[50%] w-full flex items-center justify-center lg:mt-0 mt-10'>
                                 <img src={Img} className='h-100 rounded-xl  lg:hover:scale-130 hover:scale-110 transition-all 0.53 linear ' alt="" />
                             </div >
                         </div>
